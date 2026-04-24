@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Notebooks</title>
+</head>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-image: url('bluelogin.png');
+        background-size:cover;
+        background-repeat: no repeat;
+
+    }
+
+    .navbar {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 40px;
+        font-weight: bold;
+    }
+
+    .container {
+        padding: 60px;
+    }
+
+    h1 {
+        font-size: 50px;
+        margin-bottom: 10px;
+        color:rgb(50, 98, 255);
+    }
+
+
+    .book {
+        background-color: #f5f5f5;
+        margin:20px;
+        border-radius: 15px;
+        padding: 20px;
+        height: 50px;
+        cursor: pointer;
+        transition: 0.3s;
+        border: 1px solid #ccc;
+    }
+
+    .book:hover {
+        background-color: #3668b9;
+        color: white;
+    }
+
+    .subject {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .teacher {
+        margin-top: 10px;
+        font-size: 14px;
+        color: rgb(96, 96, 96)
+    }
+
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+    <div style="margin-right: 700px; font-size:larger"><strong>Coldwell Academic Platform</strong></div>
+    <div class="nav-links">
+        <div>Notebooks</div>
+        <div>Calendar</div>
+        <div>Account</div>
+        <div>Notifications</div>
+    </div>
+</div>
+
+<!-- content -->
+<div class="container">
+    <h1>Virtual Notebooks</h1>
+    <p style="font-weight: bold; font-size: 20px;color:rgb(94, 94, 255)">Click on a subject notebook to explore the virtual class</p>
+
+    <div class="row">
+        <div class="book" onclick="openNotebook()">
+            <div class="subject">Filipino</div>
+            <div class="teacher">Ms. Jemima Francisco</div>
+        </div>
+
+
+         <div class="book" onclick="openNotebook()">
+            <div class="subject">English</div>
+            <div class="teacher">Ms. Kristin Avila</div>
+        </div>
+
+        <div class="book" onclick="openNotebook()">
+            <div class="subject">Math</div>
+            <div class="teacher">Mr. Caleb Verba</div>
+        </div>
+
+        <div class="book" onclick="openNotebook()">
+            <div class="subject">Science</div>
+            <div class="teacher">Ms. Jessica Mendaro</div>
+        </div>
+
+        <div class="book" onclick="openNotebook()">
+            <div class="subject">Social Studies</div>
+            <div class="teacher">Mr. Jose Ma. Fernandez</div>
+        </div>
+
+        <div class="book" onclick="openNotebook()">
+            <div class="subject">ICT</div>
+            <div class="teacher">Mr. Ren Santos</div>
+        </div>
+
+        <div class="book" onclick="openNotebook()">
+            <div class="subject">PE</div>
+            <div class="teacher">Mr. Alfred Cases</div>
+        </div>
+
+        <div class="book" onclick="openNotebook()">
+             <div class="subject">Music</div>
+             <div class="teacher">Mr. Denver Martin</div>
+        </div>
+
+        <div class="book" onclick="openNotebook()">
+            <div class="subject">VE</div>
+            <div class="teacher">Mr. Bernard Buntile</div>
+        </div>
+
+        <div class="book" onclick="openNotebook()">
+            <div class="subject">TLE</div>
+            <div class="teacher">Ms. Hannah Del Barrio</div>
+        </div>
+
+        <div class="book" onclick="openNotebook()">
+            <div class="subject">Leadership Training</div>
+            <div class="teacher">Ms. Flerida Manodon</div>
+        </div>
+
+        <div class="footer">
+            <p>Jacqueline Tian | 9 Sapphire @ 2026</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- JAVASCRIPT -->
+<script>
+function openNotebook() {
+    alert("Redirecting you to the virtual notebook.");
+}
+</script>
+
+</body>
+</html>
